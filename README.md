@@ -165,7 +165,7 @@ cd Xbotics-Embodied-Guide
 
 ## 🔥 News & 最近更新
 
-- **[2026-03-02]** [新闻源整理（source.docx）](改动说明-新闻源整理source-docx-20260302.md)：基于 ArXiv 机器人学每日速递的 21 篇整理稿及源文件入库。
+- **[2026-03-02]** [ArXiv 机器人学每日速递整理稿](files/source/arxiv-daily-misc-20260302.md)：基于 source.docx 的 21 篇整理稿已入库 `files/source/`。
 - 文档持续更新，欢迎 Star 与 PR；更多更新见 [如何贡献](docs/10-contributing/README.md) 与仓库 Issue。
 
 ---
