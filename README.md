@@ -16,7 +16,7 @@
   </p>
 
   <p align="center">
-    📌 <a href="#quick-start">快速开始 (Quick Start)</a> · ✨ <a href="#learning-map">学习地图 (Learning Map)</a> · 🤝 <a href="docs/10-contributing/README.md">如何贡献 (Contributing)</a>
+    📌 <a href="#quick-start">快速开始 (Quick Start)</a> · ✨ <a href="#learning-map">学习地图 (Learning Map)</a> · 💼 <a href="#career-roadmap">求职 Roadmap</a> · 🤝 <a href="docs/10-contributing/README.md">如何贡献 (Contributing)</a>
   </p>
 
   <p align="center">
@@ -120,6 +120,36 @@ cd Xbotics-Embodied-Guide
 | **8. 人物** | 学术界与产业界核心人物名录；操作、人形、VLA 领域约 120 人 | [📖 阅读](docs/8-people/README.md) |
 | **9. 公司图谱** | 硬件整机、关键部件、算法平台、数据服务；人形/四足/移动+操作 | [📖 阅读](docs/9-landscape/README.md) |
 | **10–11. AMA & 贡献** | 提 Issue 提问、PR 规则、目录约定、如何贡献、License | [📖 阅读](docs/10-contributing/README.md) |
+
+---
+
+<span id="career-roadmap"></span>
+## 💼 求职 Roadmap (Career Roadmap)
+
+面向 **校招 / 实习 / 转行** 的具身智能求职路径：先选方向、再补能力、用作品说话、最后精准投递。
+
+> **岗位信息汇总**：[Xbotics-Embodied-AI-Job](https://github.com/Xbotics-Embodied-AI-club/Xbotics-Embodied-AI-Job) — 具身智能求职 / 实习信息持续更新
+
+| 阶段 | 核心目标 | 建议动作 | 本仓库入口 |
+| :--- | :--- | :--- | :--- |
+| **1. 方向定位**（1 周） | 明确主攻赛道：VLA、运控、导航、Sim2Real、数据飞轮等 | 读综述建立术语体系；对照 JD 高频词圈定 1–2 个方向 | [具身综述](docs/1-embodied-overview/README.md) · [学习路线](docs/2-roadmaps/README.md) |
+| **2. 能力构建**（4–8 周） | 跑通一条技术路线的最小 Demo，形成可复述的项目经历 | 选一条 [4–8 周路线](docs/2-roadmaps/README.md) 完成里程碑；补 [基础](docs/3-foundations/README.md) / [经典算法](docs/4-classical/README.md) 短板 | [仿真学习](docs/6-simulation/README.md) · [开源实物](docs/7-real-robots/README.md) |
+| **3. 作品集打磨**（2–4 周） | 用可复现产出证明「能落地」 | 复现 1 个前沿 baseline（VLA / DP / 导航等）；整理 GitHub README + 指标 + 演示视频 | [前沿技术](docs/5-sota/README.md) · 本仓库 [files/source/](files/source/) 整理稿 |
+| **4. 行业认知**（持续） | 知道「投谁、聊什么、差在哪」 | 梳理目标公司 / 实验室；关注人物动态与生态变化 | [人物名录](docs/8-people/README.md) · [公司图谱](docs/9-landscape/README.md) |
+| **5. 投递与面试**（滚动） | 简历 / 作品集 / 面试话术对齐 JD | 按方向改简历关键词；准备项目深挖 + 系统设计 + 基础题；关注 [Job 仓库](https://github.com/Xbotics-Embodied-AI-club/Xbotics-Embodied-AI-Job) 更新 | [AMA & 贡献](docs/10-contributing/README.md)（可提 Issue 交流） |
+
+**简历关键词参考**（按方向选用，项目描述里尽量带指标）：
+
+- **VLA / 操作**：OpenVLA、π0、Diffusion Policy、LIBERO、Bridge、动作 token 化、LoRA 微调
+- **运控 / 规划**：MPC、iLQR、轨迹优化、Sim2Real、Isaac Lab、MuJoCo、全身控制
+- **导航 / VLN**：VLN-CE、Habitat、R2R、语义地图、分层规划
+- **数据 / 工程**：遥操作采集、LeRobot、数据飞轮、评测脚本、W&B / TensorBoard
+
+**起步三件事（求职版）**
+
+1. 在 [Job 仓库](https://github.com/Xbotics-Embodied-AI-club/Xbotics-Embodied-AI-Job) 浏览 10 条目标 JD，归纳 3 个高频能力点。
+2. 从 [学习路线](docs/2-roadmaps/README.md) 选 1 条，8 周内交付 1 个可演示的 Demo。
+3. 把 Demo 写成「问题 → 方法 → 指标 → 链接」四段式项目描述，放进简历与 GitHub Profile。
 
 ---
 
